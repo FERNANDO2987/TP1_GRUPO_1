@@ -6,6 +6,7 @@ public class Empleado {
 	private int edad;
 	private static int cont = 1000;
 
+	//Punto 5
 	//Constructores
 	public Empleado(String nombre, int edad)
 	{
@@ -15,6 +16,15 @@ public class Empleado {
 		
 		cont++;
 	}
+	
+	//Constructor vacio
+	 public Empleado() {
+	        this.id = cont++;
+	        this.nombre = "sin nombre";
+	        this.edad = 99;
+	    }
+	 
+	
 	
 	//Getters y setters
 	public int getId() {
