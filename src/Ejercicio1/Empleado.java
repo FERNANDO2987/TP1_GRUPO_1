@@ -49,7 +49,12 @@ public class Empleado {
 		this.edad = edad;
 	}
 	
+	//Metodos
 	
+	public static int devuelveProximoID()
+	{
+		return cont+1;
+	}
 	
 }
 
