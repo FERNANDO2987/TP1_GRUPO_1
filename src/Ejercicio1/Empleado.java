@@ -10,7 +10,7 @@ public class Empleado {
 	//Constructores
 	public Empleado(String nombre, int edad)
 	{
-		id = cont;
+		this.id = cont;
 		this.nombre = nombre;
 		this.edad = edad;
 		
