@@ -51,7 +51,7 @@ public class Empleado {
 	
 	public static int devuelveProximoID()
 	{
-		return cont+1;
+		return cont;
 	}
 
 	//toString
